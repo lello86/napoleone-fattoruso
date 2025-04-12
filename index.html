@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Il Fotografo di Famiglia by napo_globetrotter</title>
+  <style>
+    :root {
+      --main-color: #000;
+      --bg-color: #fff;
+      --font: 'Helvetica Neue', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font);
+      background-color: var(--bg-color);
+      color: var(--main-color);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--main-color);
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      position: relative;
+      width: 100%;
+      height: 80vh;
+      background-image: url('immagini/hero.jpg');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #666;
+      border-top: 1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Il Fotografo di Famiglia by napo_globetrotter</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="chi-sono.html">Chi sono</a>
+    <a href="gallerie.html">Le mie gallerie</a>
+    <a href="viaggi-e-workshop.html">Viaggi e Workshop</a>
+    <a href="contatti.html">Contatti e Social</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Benvenuti nel mio mondo di viaggi e fotografia</h1>
+  </section>
+
+  <footer>
+    &copy; 2025 Il Fotografo di Famiglia by napo_globetrotter
+  </footer>
+</body>
+</html>
